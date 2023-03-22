@@ -1,0 +1,35 @@
+.Header{
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    
+}
+.Left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    
+}
+.Right{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4rem;
+    margin: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .Header{
+        flex-direction: column;
+        position: sticky;
+    }
+    .Right{
+        display: none;
+    }
+  }

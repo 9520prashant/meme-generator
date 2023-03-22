@@ -1,9 +1,12 @@
 import React from "react";
+import Header from "./component/Header";
+import Form from "./component/Form";
 
 function App() {
   return (
     <div >
-          <h1>Steven</h1>
+          <Header/>
+          <Form/>
     </div>
   );
 }
