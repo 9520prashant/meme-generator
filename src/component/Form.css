@@ -27,7 +27,18 @@
     font-size: 1rem;
     cursor: pointer;
 }
-
+.meme{
+    margin-top: 1rem;
+    border: 2px solid black;
+    border-radius: 7px;
+    box-shadow: 5px 10px 8px 10px #cdc8c8;
+}
+.meme--image{
+    /* max-width: 70%;
+    max-height: 70%; */
+    height: 400px;
+    width: 500px;
+}
 @media only screen and (max-width: 600px) {
     .Form{
         flex-direction: column;
@@ -48,5 +59,9 @@
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 1rem;
         cursor: pointer;
+    }
+    .meme--image{
+        height: 300px;
+        width: 300px;
     }
   }
