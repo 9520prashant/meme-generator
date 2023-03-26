@@ -60,7 +60,9 @@
         font-size: 1rem;
         cursor: pointer;
     }
-
+.meme--text{
+    font-size: 1em;
+}
 .meme--image{
         height: 300px;
         width: 300px;
